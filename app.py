@@ -9,7 +9,6 @@ st.set_page_config(layout="wide")
 st.title('Timo data analysis - Duong Thi Huyen Tran report')
 
 
-add_navigation_app = st.sidebar.page_link("app.py", label="Dashboard")
 add_navigation_app = st.sidebar.page_link("app.py", label="Data Analyst")
 
 
@@ -18,7 +17,7 @@ st.header('Transactions vs Age groups', divider='rainbow')
 st.subheader('Data table')
 
 # Import CSV file
-transactions_per_age_group = pd.read_csv('../transactions_per_age_group.csv')
+transactions_per_age_group = pd.read_csv('./data/transactions_per_age_group.csv')
 
 transactions_per_age_group
 
@@ -49,8 +48,8 @@ st.subheader('Data table')
 transactions_time_series_col1, transactions_time_series_col2 = st.columns(2)
 
 # Import CSV file
-transactions_per_date = pd.read_csv('../transactions_per_date.csv')
-transactions_per_month = pd.read_csv('../transactions_per_month.csv')
+transactions_per_date = pd.read_csv('./data/transactions_per_date.csv')
+transactions_per_month = pd.read_csv('./data/transactions_per_month.csv')
 
 with transactions_time_series_col1:
     st.subheader('Transactions per Date')
@@ -94,7 +93,7 @@ st.header('Transactions vs transaction types', divider='rainbow')
 
 st.subheader('Data table')
 
-transactions_per_type = pd.read_csv('../transactions_per_type.csv')
+transactions_per_type = pd.read_csv('./data/transactions_per_type.csv')
 
 transactions_per_type
 

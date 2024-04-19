@@ -1,0 +1,8 @@
+txn_type_code,Transaction count,Transaction type
+1,119124,Internal Transfers
+2,63319,Interbank Transfer
+3,4589,Saving Account Withdrawal
+4,3436,Auto Recurring Savings Account Contribution
+5,3008,Manual Savings Account Contribution
+6,3188,Phone Top-Up
+7,3322,Gift Payments

@@ -1,0 +1,8 @@
+age_group,txn_type_code,Transaction type,txn_ts,txn_amount,txn_amount_abs
+Middle-aged,1,Internal Transfers,21097,145200373000,145200373000
+Middle-aged,2,Interbank Transfer,15950,-113664055000,113664055000
+Middle-aged,3,Saving Account Withdrawal,724,2786716000,2786716000
+Middle-aged,4,Auto Recurring Savings Account Contribution,1049,233502000,233502000
+Middle-aged,5,Manual Savings Account Contribution,516,-49330000,49330000
+Middle-aged,6,Phone Top-Up,476,19975000,19975000
+Middle-aged,7,Gift Payments,483,2498130000,2498130000

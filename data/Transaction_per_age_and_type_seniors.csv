@@ -1,0 +1,7 @@
+age_group,txn_type_code,Transaction type,txn_ts,txn_amount,txn_amount_abs
+Seniors,1,Internal Transfers,1701,10390924000,10390924000
+Seniors,2,Interbank Transfer,687,-8130580000,8130580000
+Seniors,3,Saving Account Withdrawal,1,18907000,18907000
+Seniors,5,Manual Savings Account Contribution,72,-5552000,5552000
+Seniors,6,Phone Top-Up,95,1769000,1769000
+Seniors,7,Gift Payments,14,146088000,146088000

@@ -1,0 +1,8 @@
+age_group,txn_type_code,Transaction type,txn_ts,txn_amount,txn_amount_abs
+Young Adults,1,Internal Transfers,96326,157835571000,157835571000
+Young Adults,2,Interbank Transfer,46682,-126501968000,126501968000
+Young Adults,3,Saving Account Withdrawal,3864,7771743000,7771743000
+Young Adults,4,Auto Recurring Savings Account Contribution,2387,438951000,438951000
+Young Adults,5,Manual Savings Account Contribution,2420,-141190000,141190000
+Young Adults,6,Phone Top-Up,2617,85605000,85605000
+Young Adults,7,Gift Payments,2825,8297176000,8297176000
