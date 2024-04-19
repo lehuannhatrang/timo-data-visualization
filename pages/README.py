@@ -27,4 +27,4 @@ st.write('Run all script shells; CSV files should exist in the folder.')
 
 st.header('Data visualization - Streamlit', divider='rainbow')
 
-st.write('The data is visualize in **Data Analyst** tab')
+st.write('The data is visualized in the **Data Analyst** tab')
