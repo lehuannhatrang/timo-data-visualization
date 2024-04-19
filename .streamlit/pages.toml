@@ -1,0 +1,10 @@
+[[pages]]
+path = "pages/README.py"
+name = "README"
+icon = ":books:"
+
+[[pages]]
+path = "app.py"
+name = "Data Analyst"
+icon = ":house:"
+

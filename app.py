@@ -2,15 +2,13 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
+from st_pages import show_pages_from_config, add_page_title
 
+show_pages_from_config()
 
-st.set_page_config(layout="wide")
+add_page_title(layout="wide")
 
 st.title('Timo data analysis - Duong Thi Huyen Tran report')
-
-
-add_navigation_app = st.sidebar.page_link("app.py", label="Data Analyst")
-
 
 st.header('Transactions vs Age groups', divider='rainbow')
 
